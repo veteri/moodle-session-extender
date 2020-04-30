@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Shojumaru', cursive;
+}
+
+body {
+	width: 300px;
+
+	background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 50px;
+}
+
+.moodle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.moodle img {
+	width: 50px;
+	height: 50px;
+}
+
+.title, .subtitle {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #fff;
+	white-space: nowrap;
+}
+
+.title {
+	font-size: 28px;
+}
+
+.subtitle {
+	font-size: 14px;
+}
+
+
+.action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.action button {
+	font-family: 'Lato', sans-serif;
+	width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.action button:hover {
+	background-position: 100% 0;
+	
+-o-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+}
+
